@@ -105,3 +105,47 @@ ul li.active{
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 800px){
+    .chart{
+        width: 100%;
+        height: 200px;
+    }
+    .dark button{
+        visibility: hidden;
+    }
+    .tabs h4{
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    .tabs h2{
+        padding-left: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
+    ul li{
+        font-size: 0.8em;
+        text-decoration: none;
+        color: inherit;
+        padding: 5px 20px;
+        border-radius: 40px;
+        border: rgba(16, 209, 77, 0) solid 1px;
+        transition: all 0.2s;
+    }
+    ul{
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+    }
+    .coins{
+        display: flex;
+        width: 100%;
+        margin-left: 0px;
+        /*justify-content: space-between;*/
+        font-size: 12px;
+    }
+    .menu{
+        overflow-x: hidden;
+    }
+}
