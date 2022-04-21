@@ -139,6 +139,10 @@ const myChart = new Chart(ctx, {
         plugins: {
             legend: {
               display: false
+            },
+            title: {
+                display: true,
+                text: 'Price over the last year'
             }
         },
         responsive: true,

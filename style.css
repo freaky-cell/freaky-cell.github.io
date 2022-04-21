@@ -114,6 +114,9 @@ ul li.active{
     .dark button{
         visibility: hidden;
     }
+    /*.tabs{
+        border: 1px solid;
+    }*/
     .tabs h4{
         text-align: center;
         font-size: 1em;
@@ -123,9 +126,10 @@ ul li.active{
         padding-left: 10px;
         text-align: center;
         font-size: 1em;
+        height:50px;
     }
     ul li{
-        font-size: 0.8em;
+        font-size: 0.9em;
         text-decoration: none;
         color: inherit;
         padding: 5px 20px;
@@ -134,9 +138,16 @@ ul li.active{
         transition: all 0.2s;
     }
     ul{
-        justify-content: center;
-        width: 50%;
+        justify-content: space-between;
+        width: 100%;
         margin: auto;
+        overflow-x: hidden;
+        overflow: scroll;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;
+    }
+    ul::-webkit-scrollbar{
+        display: none;
     }
     .coins{
         display: flex;
