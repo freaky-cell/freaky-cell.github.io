@@ -112,7 +112,7 @@ ul li.active{
         height: 200px;
     }
     .dark button{
-        visibility: hidden;
+        display: none;
     }
     /*.tabs{
         border: 1px solid;
@@ -132,7 +132,7 @@ ul li.active{
         font-size: 0.9em;
         text-decoration: none;
         color: inherit;
-        padding: 5px 20px;
+        padding: 5px 12px;
         border-radius: 40px;
         border: rgba(16, 209, 77, 0) solid 1px;
         transition: all 0.2s;
